@@ -1,0 +1,9 @@
+linters:
+  enable:
+    - gofmt
+    - goimports
+    - govet
+    - staticcheck
+    - revive      # covers most Uber naming/comment rules
+    - exhaustive
+    - noctx       # catches missing context propagation
